@@ -1,0 +1,32 @@
+/*This is a CSS file*/
+
+/*This should make the caption gray*/
+figcaption {
+	color: gray;
+}
+
+/*This should make all the text Georgia font, with a backup of serif*/
+p {
+	font-family: Georgia,
+	serif;
+}
+
+/*This should put the headline in all caps*/
+h1 {
+	text-transform: uppercase;
+}
+
+/*This should make all the Republican names red*/
+.red{
+	color: red;
+}
+
+/*This should make all the Democrat names blue*/
+.blue{
+	color:blue;
+}
+
+/*This should make the footer gray*/
+footer {
+	color: gray;
+}
