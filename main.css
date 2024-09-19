@@ -1,14 +1,24 @@
 /*This is a CSS file*/
 
+/*This should grab all the text and make it Georgia font, with a backup of serif*/
+* {
+	font-family: Georgia,
+	serif;
+}
+
 /*This should make the caption gray*/
 figcaption {
 	color: gray;
 }
 
-/*This should make all the text Georgia font, with a backup of serif*/
-p {
-	font-family: Georgia,
-	serif;
+/*This should set the maximum space for the image and caption*/
+figure {
+	max-width: 600px;
+}
+
+/*This allows the image to take up full space of above figure box*/
+img {
+	max-width: 100%;
 }
 
 /*This should put the headline in all caps*/
@@ -27,6 +37,6 @@ h1 {
 }
 
 /*This should make the footer gray*/
-footer {
+h6 {
 	color: gray;
 }
